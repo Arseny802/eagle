@@ -9,7 +9,7 @@ default_generator="Unix Makefiles"
 using_generator=""
 
 VERSION=0.1.0
-TITLE=cpb-eagle-debug
+TITLE=cpb-eagle-release
 SUBJECT=$TITLE-$VERSION-process
 USAGE="Usage: command -hgv [generator]"
 
@@ -67,7 +67,7 @@ touch $LOCK_FILE
 # --- Body --------------------------------------------------------
 #  SCRIPT LOGIC GOES HERE
 
-# delete debug cache
+# delete previous release
 rm -rf "bin/$using_generator"
 mkdir "bin/$using_generator"
 
@@ -77,7 +77,7 @@ echo Current generator: $using_generator
 echo
 
 cd "bin/$using_generator"
-cmake --verbose -G "$using_generator" "../../src/" -DCMAKE_BUILD_TYPE=Debug
+cmake --verbose -G "$using_generator" "../../src/" -DCMAKE_BUILD_TYPE=Release
 make
 
 echo ""
