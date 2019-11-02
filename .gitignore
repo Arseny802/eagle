@@ -1,5 +1,5 @@
 # Custom directories
-*/bin/*/*
+bin/*/*
 */implementations/*
 
 # Prerequisites
