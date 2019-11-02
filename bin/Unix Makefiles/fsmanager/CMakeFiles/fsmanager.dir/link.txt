@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../bin/libfsmanager.a  CMakeFiles/fsmanager.dir/UnixFiles.cpp.o CMakeFiles/fsmanager.dir/WinFiles.cpp.o
+/usr/bin/ranlib ../bin/libfsmanager.a

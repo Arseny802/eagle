@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arseny/Documents/development/eagle/src/fsmanager/UnixFiles.cpp
+fsmanager.h
+/home/arseny/Documents/development/eagle/src/fsmanager/fsmanager.h
+
+/home/arseny/Documents/development/eagle/src/fsmanager/WinFiles.cpp
+fsmanager.hpp
+/home/arseny/Documents/development/eagle/src/fsmanager/fsmanager.hpp
+
+/home/arseny/Documents/development/eagle/src/fsmanager/fsmanager.hpp
+iostream
+-
+fstream
+-
+vector
+-
+Windows.h
+-
+tchar.h
+-
+
