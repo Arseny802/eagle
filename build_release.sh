@@ -5,7 +5,7 @@
 # ------------------------------------------------------------------
 
 # set default generator for cmake
-default_generator="Unix Makefiles"
+default_generator="CodeLite - Unix Makefiles"
 using_generator=""
 
 VERSION=0.1.0
